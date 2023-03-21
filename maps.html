@@ -1,0 +1,185 @@
+<<html>
+<head>
+
+<!-- <link rel="stylesheet" href="bootstrap.css"> -->
+<!-- <script src="bootstrap.bundle.js"></script> -->
+
+<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="popper.js"></script>
+	<link rel="stylesheet" type="text/css" href="Master.css">
+
+<title>Cafe Coffee Day</title>
+	
+
+
+
+
+<style>
+.maps-tab {
+height:600px;
+  width:900px;
+  margin: 90px 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.maps-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.maps-header h2 {
+  margin: 0;
+}
+
+.maps-header-buttons {
+  display: flex;
+}
+
+.maps-header-button {
+  background-color: #008CBA;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.maps-header-button:last-child {
+  margin-right: 0;
+}
+
+.maps-container {
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.map {
+  width: 100%;
+  height:100%;
+  
+  padding: 10px;
+}
+
+.map-info {
+  width: 30%;
+  padding: 10px;
+  margin-left:10px;
+  background-color: #f2f2f2;
+}
+
+.map-info h3 {
+  margin-top: 0;
+}
+
+.map-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.map-info ul li {
+  margin-bottom: 5px;
+}
+
+.map-info ul li strong {
+  font-weight: bold;
+  margin-right: 5
+
+
+  }
+
+
+</style>
+
+	
+</head>
+<body>
+
+<header>
+		<div class="container">
+			<div class="row ">
+				<div class="col-5 ">
+					<img src="st.jpg" class="img-fluid" style="margin-left: 100px;" height="70" width="170" >
+				</div>
+
+				<div class="col-7 ">
+					<form class="form-inline" style="margin-top: 35px; margin-left: 250px; margin-right:20px;">
+						<div class="input-group">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search....">
+							<button class="btn btn-success" type="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+		<div class="container-fluid">
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item "><a class="nav-link"  href="Home.html" style="width: 110px; text-align: center;">Home</a></li>
+					<li class="nav-item"><a class="nav-link"  href="product.html" style="width: 160px; text-align: center;">Product</a></li>
+					<li class="nav-item"><a class="nav-link"  href="varients.html" style="width: 160px; text-align: center;">Varients</a></li>
+					<li class="nav-item "><a class="nav-link"  href="booking.html" style="width: 130px; text-align: center;">Booking</a></li>
+					<li class="nav-item active" style="border-bottom: 3px solid #77b300; font-size: 17px;"><a class="nav-link"  href="maps.html#yup" style="width: 110px; text-align: center;">Maps</a></li>
+					<li class="nav-item"><a class="nav-link"  href="Contact.html" style="width: 110px; text-align: center;">Contact</a></li>
+				</ul>
+			</div>	
+		</div>
+	</nav>
+	
+<section style="height:900px; width:1500px;display:flex; justify-content:center;" id="yup">
+<div class="maps-tab" >
+  <div class="maps-header">
+    <h2>Maps</h2>
+    <div class="maps-header-buttons">
+      <button class="maps-header-button">Map View</button>
+      <button class="maps-header-button">Satellite View</button>
+      <button class="maps-header-button">Terrain View</button>
+    </div>
+  </div>
+  <div class="maps-container">
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186897.31985304023!2d-95.67706842327196!3d29.76042650416367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf77cdd8bc17%3A0x54a1ed0c7bcfc3f!2sHouston%2C%20TX%2C%20USA!5e0!3m2!1sen!2sin!4v1647703143819!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="map-info">
+      <h3>Map Information</h3>
+      <ul>
+        <li><strong>Location:</strong> Houston, TX</li>
+        <li><strong>Latitude:</strong> 29.7604° N</li>
+        <li><strong>Longitude:</strong> -95.3698° W</li>
+        <li><strong>Zoom Level:</strong> 12</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+</section>
+<footer class="bg-dark" >
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h4>@ 2021 Cafe Coffee Day . All Copy Rights Reserved. </h4>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
